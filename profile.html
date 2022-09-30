@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Fred & George 프레드앤조지" />
+        <meta property="og:description" content="상수동 카페&펍 프레드앤조지" />
+        <meta property="og:image" content="store_image.jpeg" />
+        <title>Fred & George 프레드앤조지</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color: brown;
+            }
+            .profile{
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid white;
+
+                background-image: url('IMG_0708.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+            }
+            .wrap{
+                width: 350px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap>a {
+                font-size: 14px;
+                font-weight: bold;
+                color: black;
+
+                background-color: white;
+                border-radius: 8px;
+
+                box-shadow: 3px 3px 5px 0px black;
+
+                width: 300px;
+                height: 50px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+            .wrap>a:hover{
+                background-color: #d2d2d2;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">Fred & George</h1>
+            <p class="sub">상수동 145-2번지 1층</p>
+            <a target="_blank" href="https://naver.me/G0flc8q2">오시는 길</a>
+            <a target="_blank" href="https://instagram.com/frednngeorge/">instagram</a>
+            <a target="_blank" href="https://pf.kakao.com/_IYxlKb">예약 문의</a>
+            <a target="_blank" href="https://pf.kakao.com/_IYxlKb">대관 문의</a>
+        </div>
+    </body>
+</html>
